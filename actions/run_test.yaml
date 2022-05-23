@@ -1,0 +1,25 @@
+---
+name: "run_test"
+description: "Run the given robot test and show the results"
+runner_type: "python-script"
+entry_point: "run_test.py"
+enabled: true
+parameters:
+  tags_exclude:
+    description: "Select test cases not to run by tag"
+    type: array
+    required: false
+  tags_include:
+    description: "Select tests to run by tag"
+    type: array
+    required: false
+  test_path:
+    description: "Path to the robot test to run"
+    type: string
+    required: true
+  variables:
+    description: "Hash of variable keys and values"
+    type: object
+    required: false
+  
+    

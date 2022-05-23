@@ -1,0 +1,5 @@
+---
+exec_path:
+  description: "Path to Robot Framework binary."
+  type: "string"
+  default: "/opt/stackstorm/virtualenvs/robot_framework/bin/robot"

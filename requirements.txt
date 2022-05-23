@@ -1,0 +1,9 @@
+pipenv
+robotframework
+robotframework-datadriver
+robotframework-jsonlibrary
+robotframework-pabot
+robotframework-requests
+robotframework-seleniumlibrary
+robotframework-sshlibrary
+robotstatuschecker

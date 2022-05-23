@@ -1,0 +1,11 @@
+---
+ref: robot_framework
+name: robot_framework
+description: StackStorm integration pack for running custom Robot Framework tests
+keywords: 
+    - robot
+    - framework
+    - docker
+version: 0.1.0
+author: Encore Technologies
+email: john.schoewe@encore.tech
